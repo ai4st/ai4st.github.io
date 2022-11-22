@@ -81,11 +81,11 @@ a:hover .lni-google-drive {
     color: #ffce4b !important;
 }
 
-.lni-empty-file {
+.lni-empty-file, .lni-list {
     color: #a54257 !important;
 }
 
-a:hover .lni-empty-file {
+a:hover .lni-empty-file, a:hover .lni-list {
     color: #a71e3b !important;
 }
 
