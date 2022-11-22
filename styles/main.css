@@ -38,7 +38,7 @@ body {
 main {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 12px;
 }
 
 .title,
@@ -48,14 +48,18 @@ main {
 }
 
 .title {
-  font-size: 2rem;
-  margin-bottom: -13px;
+  font-size: 1.8rem;
+  margin-bottom: -10px;
   margin-top: 20px;
 }
 
 .subtitle {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 400;
+}
+
+.section-title {
+  margin-bottom: -10px;
 }
 
 ul {
@@ -63,17 +67,15 @@ ul {
   padding: 0;
 }
 
-ul a {
-  text-decoration: none;
-  color: inherit;
-}
-
-li {
-  margin: 10px 0;
+ul li a {
+  display: block;
+  margin: 12px 0;
   padding: 10px 20px;
   border: 2px solid black;
   box-shadow: 2px 2px 0px black;
   border-radius: 5px;
+  text-decoration: none;
+  color: inherit;
 }
 
 i {
@@ -129,7 +131,7 @@ a:hover {
 
 footer {
   text-align: center;
-  color: grey !important;
+  color: rgb(83, 83, 83) !important;
   margin: 40px 0 20px 0;
 }
 
