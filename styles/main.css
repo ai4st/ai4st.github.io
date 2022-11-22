@@ -2,4 +2,26 @@
 
 body {
     font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.title, .subtitle {
+    text-align: center;
+    margin: 0;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: -13px;
+}
+
+.subtitle {
+    font-size: 1.4rem;
 }
