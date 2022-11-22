@@ -92,3 +92,14 @@ a:hover .lni-empty-file, a:hover .lni-list {
 a:hover {
     font-weight: 700;
 }
+
+footer {
+    text-align: center;
+    color: grey !important;
+    margin: 40px 0 20px 0;
+}
+
+footer a {
+    text-decoration: none !important;
+    color: inherit;
+}
