@@ -1,0 +1,11 @@
+main {
+    position: relative;
+}
+
+ul {
+    list-style: inside disc;
+}
+
+.back-button {
+    padding: 5px 10px;
+}
