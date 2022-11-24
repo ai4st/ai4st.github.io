@@ -85,57 +85,55 @@ i {
   margin-right: 15px;
 }
 
-.lni-discord {
+.discord {
   color: #7289da !important;
 }
 
-a:hover .lni-discord {
+.button:hover .discord {
   color: #4161d8 !important;
 }
 
-.lni-telegram-original {
+.lightblue {
   color: #66aacc !important;
 }
 
-a:hover .lni-telegram-original {
+.button:hover .lightblue {
   color: #0088cc !important;
 }
 
-.lni-whatsapp {
-  color: #25d366 !important;
+.green {
+  color: #5ec584 !important;
 }
 
-a:hover .lni-whatsapp {
+.button:hover .green {
   color: #00d34d !important;
 }
 
-.lni-search {
+.black {
   color: gray !important;
 }
 
-a:hover .lni-search {
+.button:hover .black {
   color: black !important;
 }
 
-.lni-google-drive {
+.yellow {
   color: #ffdd7f !important;
 }
 
-a:hover .lni-google-drive {
+.button:hover .yellow {
   color: #ffce4b !important;
 }
 
-.lni-empty-file,
-.lni-list {
+.red {
   color: #a54257 !important;
 }
 
-a:hover .lni-empty-file,
-a:hover .lni-list {
+.button:hover .red {
   color: #a71e3b !important;
 }
 
-a:hover {
+.button:hover {
   font-weight: 700;
 }
 
