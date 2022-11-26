@@ -1,11 +1,25 @@
 main {
-    position: relative;
+  position: relative;
 }
 
 ul {
-    list-style: inside disc;
+  list-style: inside disc;
 }
 
 .back-button {
-    padding: 5px 10px;
+  padding: 5px 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.track-title {
+  cursor: pointer;
+}
+
+.track-title i {
+  scale: 1;
+  margin-right: 10px;
+  font-weight: 800;
 }
