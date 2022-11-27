@@ -8,10 +8,15 @@ ul {
 
 .back-button {
   padding: 5px 10px;
+  margin-top: 30px;
 }
 
 .hide {
   display: none;
+}
+
+.icon {
+  opacity: 1;
 }
 
 .track-title {
@@ -22,4 +27,8 @@ ul {
   scale: 1;
   margin-right: 10px;
   font-weight: 800;
+}
+
+.flip {
+  rotate: 180deg;
 }

@@ -71,13 +71,17 @@ ul {
 .button {
   display: block;
   margin: 12px 0;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border: 2px solid black;
   box-shadow: 2px 2px 0px black;
   border-radius: 5px;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 i {
@@ -85,56 +89,51 @@ i {
   margin-right: 15px;
 }
 
-.discord {
-  color: #7289da !important;
-}
-
-.button:hover .discord {
-  color: #4161d8 !important;
-}
-
-.lightblue {
-  color: #66aacc !important;
-}
-
-.button:hover .lightblue {
-  color: #0088cc !important;
-}
-
-.green {
-  color: #5ec584 !important;
-}
-
-.button:hover .green {
-  color: #00d34d !important;
-}
-
-.black {
-  color: gray !important;
-}
-
-.button:hover .black {
-  color: black !important;
-}
-
-.yellow {
-  color: #ffdd7f !important;
-}
-
-.button:hover .yellow {
-  color: #ffce4b !important;
-}
-
-.red {
-  color: #a54257 !important;
-}
-
-.button:hover .red {
-  color: #a71e3b !important;
+.icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  scale: 1.1;
+  margin-right: 15px;
+  stroke-width: 2;
+  stroke: currentColor;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.6;
 }
 
 .button:hover {
   font-weight: 700;
+}
+
+.button:hover .icon {
+  opacity: 1;
+}
+
+.discord {
+  color: #4161d8 !important;
+}
+
+.lightblue {
+  color: #0088cc !important;
+}
+
+.green {
+  color: #00d34d !important;
+}
+
+.black {
+  color: black !important;
+}
+
+.yellow {
+  color: #ffce4b !important;
+}
+
+.red {
+  color: #a71e3b !important;
 }
 
 footer {
@@ -146,4 +145,13 @@ footer {
 footer a {
   text-decoration: none !important;
   color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a .icon {
+  margin-right: 10px;
+  opacity: 0.6;
 }
