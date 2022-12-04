@@ -68,6 +68,10 @@ main {
   margin-bottom: -10px;
 }
 
+.hide {
+  display: none;
+}
+
 ul {
   list-style: none;
   padding: 0;
