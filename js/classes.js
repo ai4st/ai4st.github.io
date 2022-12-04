@@ -207,7 +207,7 @@ const buildClassHTML = (classData) => {
 
   const titleButton = document.createElement('a');
   titleButton.classList.add('button');
-  titleButton.innerText = `${classData.name}`;
+  titleButton.innerText = `[${classData.id}] ${classData.name}`;
   cont.appendChild(titleButton);
 
   const content = document.createElement('div');
