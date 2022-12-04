@@ -59,6 +59,11 @@ main {
   font-weight: 400;
 }
 
+.back-button {
+  padding: 5px 10px !important;
+  margin-top: 30px !important;
+}
+
 .section-title {
   margin-bottom: -10px;
 }

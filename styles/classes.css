@@ -1,0 +1,77 @@
+#search-container {
+    grid-area: search;
+    display: flex;
+}
+
+#searchbar {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#year {
+    grid-area: year;
+    display: flex;
+    flex-direction: column;
+}
+
+#semester {
+    grid-area: semester;
+}
+
+#tracks-container {
+    grid-area: tracks;
+}
+
+#clear {
+    grid-area: button;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#filters-container {
+    display: grid;
+    margin: 20px auto 30px auto;
+    max-width: 400px;
+    gap: 8px;
+    grid-template-areas: 
+        'search search'
+        'year semester'
+        'tracks tracks'
+        'button button';
+}
+
+.track {
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+}
+
+.track + label {
+    cursor: pointer;
+}
+
+#tracks-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tracks-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+select {
+    padding: 5px 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
