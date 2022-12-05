@@ -159,8 +159,8 @@ const filterCourses = () => {
 
   const children = [...container.childNodes];
   for (let i = 1; i < children.length; i++) {
-    const keyword = children[i].childNodes[0].innerText.toLowerCase().trim().slice(1);
-
+    const keyword = children[i].childNodes[0].innerText.toLowerCase().trim().split("]")[0].slice(1);
+    
     const split = keyword.split(' ');
     const courseYear = split[0][0];
     const courseSemester = split[0][2];
